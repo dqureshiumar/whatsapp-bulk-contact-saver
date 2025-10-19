@@ -119,3 +119,10 @@ Ideas to consider:
 * The performance may vary depending on the number of chats and network speed.
 
 ---
+
+If you find my projects helpful, consider supporting me here:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%23FFDD00.svg?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/<your-username>)
+
+---
+
