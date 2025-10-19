@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp Contacts Saver</title>
+    <link rel="stylesheet" href="materialize/css/materialize.min.css">
+    <style>
+        body { font-family: sans-serif; width: 250px; padding: 10px; }
+        button { width: 100%; padding: 8px; margin-top: 10px; }
+        input { width: auto; padding: 8px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+<h6>WhatsApp Contacts Saver</h6>
+<input type="text" id="prefix" placeholder="Give a Contact Name" required/>
+<button id="extract" class="btn waves-effect waves-light blue">Extract</button>
+<button class="btn waves-effect waves-light" id="download">Download</button>
+
+<pre id="status"></pre>
+
+<script src="popup.js"></script>
+</body>
+</html>

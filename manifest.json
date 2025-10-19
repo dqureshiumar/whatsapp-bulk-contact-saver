@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Contact Exporter",
+  "version": "1.0",
+  "description": "Extract WhatsApp Web contacts and export to VCF",
+  "permissions": ["scripting", "downloads", "activeTab"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Export WhatsApp Contacts"
+  },
+  "icons": {
+    "128": "icon.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
