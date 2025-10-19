@@ -42,8 +42,31 @@
 
 ## 📥 Example Use Case
 
-* You are part of a large WhatsApp group with many unknown numbers.
+* You have hundreds or thousands of unknown leads, and you want to show your status updates to them.
 * With one click, you can extract all those contacts and save them to your phone, without manually adding each one.
+
+---
+
+## ⚙ Installation (Developer Mode)
+
+1. Clone this repository or download the ZIP.
+```
+git clone https://github.com/<your-username>/whatsapp-contact-exporter.git
+```
+
+2. Open Chrome → `chrome://extensions/`
+3. Turn on **Developer Mode**
+4. Click **Load unpacked**
+5. Select the project folder
+
+---
+
+## 🧠 Tech Stack
+
+1. **Manifest V3** (latest Chrome extension API)
+2. **Vanilla JavaScript** (no frameworks)
+3. **Material CSS (optional)** for clean UI styling
+4. **WhatsApp Web DOM parsing** for contact extraction
 
 ---
 
@@ -60,6 +83,33 @@ If you face any issues or have questions, feel free to reach out:
 
 * This tool is intended for personal and ethical use only.
 * Make sure you comply with WhatsApp’s terms of service and local privacy laws when using this extension.
+
+---
+## 🛡️ Privacy
+
+This extension runs entirely **locally in your browser**.
+
+It does not send, store, or upload any personal or contact information.
+
+All data extraction and file generation happen within the user’s browser memory.
+
+---
+
+📜 License
+
+MIT License © 2025 Umer Qureshi
+
+---
+
+## 🌟 Contribute
+
+Pull requests and feature suggestions are welcome!
+Ideas to consider:
+
++ Export to CSV format
++ Progress bar during extraction
++ Auto-split large **.vcf** files
++ Cross Browser Support
 
 ---
 
