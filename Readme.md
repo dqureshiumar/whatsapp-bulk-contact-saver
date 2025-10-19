@@ -1,5 +1,3 @@
----
-
 # 📇 Bulk Contact Saver for WhatsApp
 
 **Bulk Contact Saver for WhatsApp** is a powerful Chrome extension that helps you automatically detect and save all unsaved contacts from your WhatsApp Web interface. It exports the data into a `.vcf` (vCard) file, which you can easily import on your mobile device to save all the contacts at once.
